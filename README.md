@@ -25,3 +25,15 @@ Overall, server-side rendering can improve the performance and SEO of your React
 
 #### My thoughts: 
 I was thinking that you eliminate the running an instance of your client react app. But you have to run two backend servers. A node.js one and a asp.net one.
+
+### Question 2:
+```
+does that mean that you'll have two backend application running? a node.js one and your asp.net one?
+```
+#### Answer: 
+: Yes, that's correct. To use Node.js for server-side rendering of React pages in an ASP.NET application, you would need to run both a Node.js server and an ASP.NET server simultaneously.
+: The Node.js server would be responsible for rendering the React components on the server-side and generating the HTML markup for the pages. The ASP.NET server would then serve these pre-rendered pages to the client.
+: However, it's worth noting that you don't necessarily need to use Node.js for server-side rendering in an ASP.NET application. There are also other server-side rendering solutions available that are written in .NET, such as ```ReactJS.NET``` or ASP.NET Core's Razor Pages. These solutions may allow you to avoid running a separate Node.js server and simplify your deployment process.
+
+#### My thoughts: 
+I'm glad i asked the question. Otherwise I might've never found out about ReactJS.NET. That's why I highlighted it. So let's explore it!
